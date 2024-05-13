@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  Verdana, sans-serif;
+}
+.brand
+{
+    color:rgb(217, 232, 235);
+    font-weight: 800;
+   font-size: x-large;
+    padding-left: 1rem;
+}
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);    
+}
+.links
+{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.links li{
+    margin-right: 3px;
+}
+.links a{
+    display: inline-block;
+    width: 180px;
+    text-decoration: none;
+    font-size: small;
+    padding: 1.25rem .5rem;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+.links a:hover
+{
+    background-image: linear-gradient( 109.6deg,  rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );}
+/* panels */
+.container
+{
+    width: 97.5%;
+    margin: 16px auto;
+}
+.mid50
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin: 8px auto;
+}
+.flexrow
+{
+    display: flex;
+}
+.panel
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 100%;
+
+}
+.column
+{
+    width: 100%;
+   margin: 15px 0;
+}
+.share
+{
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: .5rem;
+    margin-bottom: 8px;
+}
+.share div
+{
+    margin-bottom: 8px;
+}
+.file-box
+{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.box {
+    width: 170px;
+    margin: 5px;
+}
+.box img{
+    width: 170px;
+}
+.box div
+{
+    text-align: center;
+    margin: 5px;
+}
+/* list */
+.list-head
+{
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    color: aliceblue;
+    background-color:rgba(110,123,251,1);
+}
+.list{
+    list-style: none;
+    padding: 0;
+}
+.list li{
+    background-color: #757575;
+    color: #FFFFFF;
+    margin-bottom: 1px;
+    padding: .5rem .25rem;
+}
+/* from */
+.text 
+{
+    flex: 1 1 auto;
+    padding: .5rem;
+}
+.gbutton
+{
+    padding: .5rem 1rem;
+    background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(95,184,224,1) 99.7% );
+    color: azure;
+    border:solid 1px white
+}
+.btn 
+{
+    padding: .75rem 1.5rem;
+    background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(95,184,224,1) 99.7% );
+    color: azure;
+
+}
+.col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+}
